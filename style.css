@@ -1,7 +1,87 @@
-Some wonderful CSS will soon appear here!
+ul.octodex {
+  position: relative;
+  height: 270px;
+}
 
-Seriously, it will be legit!
+ul.octodex li {
+  float: left;
+  margin: 0 17px 0 0;
+  padding: 0;
+  display: block;
+  
+}
 
-I'm really not even kidding.
+ul.octodex img {
+  width: 270px;
+  height: 268px;
+  border: 1px solid #c9c9c9;
+}
 
-Ok, Kind of kidding...
+ul.octodex .image-footer {
+  height: 36px;
+  width: 272px;
+  border-bottom: 1px solid #c9c9c9;
+  position: absolute;
+  top: 100%;
+}
+
+.image-number {
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  color: #c4c5c5;
+  font-weight: bold;
+  float: left;
+  margin-top: 13px;
+}
+
+.image-number:before {
+  content: "#";
+}
+
+.image-footer .image-caption {
+  font-size: 10px;
+  float: right;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  padding-top: 13px;
+  
+}
+
+.image-caption span {
+  color: grey;
+  padding-right: 3px;
+  padding-left: 3px;
+  
+}
+
+.image-caption a {
+  text-decoration: none;
+  color: #333;
+}
+
+.image-footer .image-caption span, a, ul {
+  float: left;
+  display: inline-block;
+  
+}
+
+ul.authors {
+  display: inline-block;
+  margin: 0;
+    padding: 0;
+}
+
+ul.authors img {
+  width: 18px;
+  height: 18px;
+  margin: -4px 0 0 0;
+  padding: 0 2px;
+  border: 0;
+  border-radius: 3px;
+  
+}
+
+ul.authors li {
+  margin-right: 0;
+  
+}
