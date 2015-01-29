@@ -1,14 +1,16 @@
+.container {
+width: 1300px;
+}
 ul.octodex {
   position: relative;
   height: 270px;
 }
 
 ul.octodex li {
+  display: block;
   float: left;
   margin: 0 17px 0 0;
   padding: 0;
-  display: block;
-  
 }
 
 ul.octodex img {
@@ -24,7 +26,6 @@ ul.octodex .image-footer {
   position: absolute;
   top: 100%;
 }
-
 .image-number {
   font-size: 11px;
   font-family: Arial, sans-serif;
@@ -33,25 +34,20 @@ ul.octodex .image-footer {
   float: left;
   margin-top: 13px;
 }
-
 .image-number:before {
-  content: "#";
+    content: "#";
 }
-
 .image-footer .image-caption {
   font-size: 10px;
   float: right;
   font-family: Arial, sans-serif;
   font-weight: bold;
   padding-top: 13px;
-  
 }
-
 .image-caption span {
   color: grey;
   padding-right: 3px;
   padding-left: 3px;
-  
 }
 
 .image-caption a {
@@ -62,27 +58,30 @@ ul.octodex .image-footer {
 .image-footer .image-caption span, a, ul {
   float: left;
   display: inline-block;
-  
 }
-
 ul.authors {
   display: inline-block;
   margin: 0;
-    padding: 0;
+  padding: 0;
 }
-
 ul.authors img {
   width: 18px;
   height: 18px;
   margin: -4px 0 0 0;
   padding: 0 2px;
-  border: 0;
+  border: 0px;
   border-radius: 3px;
-  
 }
-
 ul.authors li {
   margin-right: 0;
-  
 }
-
+.tri {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 5px 0 5px;
+  border-color: #c9c9c9 transparent transparent transparent;
+  position: absolute;
+  top: 0px;
+  left: 262px;
+}
